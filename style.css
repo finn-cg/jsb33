@@ -1,0 +1,46 @@
+#login-form {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    width: 300px;
+    height: 24px;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+
+button {
+    height: 44px;
+    width: 320px;
+    margin: 16px 0 32px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: royalblue;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
